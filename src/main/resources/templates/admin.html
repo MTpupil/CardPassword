@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>卡密后台</title>
+    <!-- 引入 layui.css -->
+    <link rel="stylesheet" href="//unpkg.com/layui@2.6.8/dist/css/layui.css"/>
+
+    <!-- 引入 layui.js -->
+    <script src="//unpkg.com/layui@2.6.8/dist/layui.js"></script>
+</head>
+<body style="background-color: #ccc">
+
+<div style="text-align: center;height: 200px;background-color: aqua" class="layui-container">
+    <div class="layui-row" style="">
+        <div class="layui-col-md2 layui-col-xs2" style="border-right: 2px solid #666">
+            <img title="公众号：木瞳科技" style="width: 80px;" src="https://s4.ax1x.com/2022/01/11/7mCYDA.png"/>
+            <p style="font-size: 20px" class="layui-inline" th:text="${username}"></p>
+        </div>
+        <div style="background-color: red;height: 100%;" class="layui-col-md10 layui-col-xs10">
+            <p style="font-size: 34px">木瞳科技卡密管理后台</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

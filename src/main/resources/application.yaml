@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: 980731
+    url: jdbc:mysql://127.0.0.1:3306/cardpassword
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  
+pagehelper :
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
