@@ -147,7 +147,6 @@ public class CodeController {
 	@PostMapping("/index")
 	public String admin(HttpSession session, Model model, String username, String password) {
 		
-		
 		User user = codeService.login(username, password);
 		if (user == null) {
 			model.addAttribute("msg", "登录失败，请检查用户名和密码");
